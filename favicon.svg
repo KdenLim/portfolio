@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Kayden Lim logo</title>
+  <desc id="desc">A smiling face with a data pipeline mouth.</desc>
+  <rect width="512" height="512" rx="96" fill="#8e6245"/>
+  <circle cx="198" cy="215" r="22" fill="#DCF0C3"/>
+  <circle cx="314" cy="215" r="22" fill="#DCF0C3"/>
+  <path d="M144 294c44 62 112 88 176 58 24-11 41-30 48-58" fill="none" stroke="#DD9E59" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="144" cy="294" r="25" fill="#DD9E59"/>
+  <circle cx="368" cy="294" r="25" fill="#DD9E59"/>
+</svg>

@@ -96,11 +96,15 @@ nav {
   padding: 0 2rem;
 }
 
-nav .logo {
+.logo {
   font-size: 1.5rem;
   font-weight: 700;
   color: #fff;
-  letter-spacing: -0.5px;
+  letter-spacing: 0;
+}
+
+.logo:hover {
+  color: #fff;
 }
 
 nav .nav-links {
