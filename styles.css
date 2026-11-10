@@ -263,6 +263,19 @@ nav .nav-links a:hover {
   transform: scale(1.05);
 }
 
+/* Match the diagram's canvas and keep every stage visible. */
+.project-card--cdc .project-image {
+  background-color: #fcf8f6;
+}
+
+.project-card--cdc .project-image img {
+  object-fit: contain;
+}
+
+.project-card--cdc:hover .project-image img {
+  transform: none;
+}
+
 .project-content {
   padding: 1.5rem;
   flex-grow: 1;

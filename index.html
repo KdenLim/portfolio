@@ -98,6 +98,32 @@
         <section id="projects" class="fade-in">
             <h2>Featured Projects</h2>
             <div class="projects-grid">
+
+                <!-- CDC Study: cropped architecture image supplied by Kayden -->
+                <article class="project-card project-card--cdc">
+                    <div class="project-image">
+                        <a href="https://github.com/KdenLim/cdc-study" target="_blank" rel="noopener noreferrer">
+                            <picture>
+                                <source srcset="images/cdc-study.webp" type="image/webp">
+                                <img src="images/cdc-study.png" width="1400" height="613" loading="lazy" decoding="async" alt="CDC architecture: PostgreSQL WAL flows through Debezium to Kafka topics, then to a Python consumer; the database, connector, and Kafka run in Docker.">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h3><a href="https://github.com/KdenLim/cdc-study" target="_blank" rel="noopener noreferrer">Change Data Capture Study</a></h3>
+                        <div class="skill-tags">
+                            <span>PostgreSQL</span>
+                            <span>Debezium</span>
+                            <span>Apache Kafka</span>
+                            <span>Docker Compose</span>
+                            <span>Python</span>
+                        </div>
+                        <p>
+                            A hands-on study of change data capture (CDC): streaming PostgreSQL changes through Debezium into Kafka, then inspecting operation types and before/after values with a Python consumer. Docker Compose runs the stack, with Vim practice along the way—because learning one thing at a time would be too sensible.
+                        </p>
+                        <a href="https://github.com/KdenLim/cdc-study" target="_blank" rel="noopener noreferrer" class="btn" style="text-align: center;">View Source</a>
+                    </div>
+                </article>
                 
                 <!-- Project 1 -->
                 <div class="project-card">
